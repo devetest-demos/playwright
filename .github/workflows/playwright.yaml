@@ -1,11 +1,9 @@
 name: Build and Deploy to GKE
 
 on:
-  push: // uncomment these lines once the kubernetes deployment is ready
+  push: 
     branches:
-    #- main
-    #- uat
-    - main
+      - main
 
 
 jobs:
