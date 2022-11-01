@@ -17,7 +17,7 @@ jobs:
     # Set environment
     - name: Set Environment
       run: |-
-        npx --help
-        npx install playwright
+        npm -i -D playwright
+        npx playwright install --with-deps chromium
 
     
