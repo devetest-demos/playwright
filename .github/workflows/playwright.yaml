@@ -18,7 +18,6 @@ jobs:
     - name: Set Environment
       run: |-
         npx --help
-        npx install playwright chromium
-        npx install playwright firefox
+        npx install playwright
 
     
