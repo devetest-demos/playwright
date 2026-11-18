@@ -1,0 +1,19 @@
+name: job-container
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  nodejs:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+
+      - name: Install dependencies
+        run: |
+          ls -la
+          pwd
